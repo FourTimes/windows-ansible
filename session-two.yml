@@ -1,0 +1,7 @@
+---
+- hosts: all
+  tasks:
+    - name: Download ConfigureRemotingForAnsible.ps1 to specified path
+      ansible.windows.win_get_url:
+        url: https://raw.githubusercontent.com/ansible/ansible/devel/examples/scripts/ConfigureRemotingForAnsible.ps1
+        dest: C:\ConfigureRemotingForAnsible.ps1

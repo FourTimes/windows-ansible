@@ -29,3 +29,15 @@
 
 ![Result](https://www.ansible.com/hs-fs/hubfs/2018_Images/Social-Blog/Ansible-Windows/Ansible-Windows-Screen-Grab.jpg?width=1704&height=336&name=Ansible-Windows-Screen-Grab.jpg)
 
+
+## First Example
+
+    1. Local file push from ansible machine to windows machine
+
+        ansible-playbook session-one.yml
+
+## Second Example
+
+    1. Download ConfigureRemotingForAnsible.ps1 to specified path
+
+        ansible-playbook session-two.yml
