@@ -1,0 +1,10 @@
+[win]
+windows1 xxx.xxx.xxx.xxx 
+windows2 xxx.xxx.xxx.xxx 
+windows3 xxx.xxx.xxx.xxx 
+
+[win:vars]
+ansible_user        = windows-username
+ansible_password    = windows-password
+ansible_connection  = winrm
+ansible_winrm_server_cert_validation=ignore
